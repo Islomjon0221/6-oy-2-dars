@@ -1,0 +1,129 @@
+body {
+  font-family: "DM Sans";
+  padding: 49px 100px 0px 100px ;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 121px;
+}
+
+header img {
+  margin-right: 110px;
+  cursor: pointer;
+  border: 10px solid #1875FF;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+header img:hover {
+  box-shadow: 10px 10px 1px 1px #f8f8f8
+}
+
+header nav a {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 41px;
+  transition: all 0.5s;
+  padding-bottom: 5px;
+}
+
+header nav a:hover {
+  color: #ffffffa5;
+  cursor: pointer;
+  transition: none;
+  border-bottom: 3px solid #FFF;
+}
+
+header nav a:last-child {
+  border-radius: 15px;
+  background: #FFF;
+  color: #1875FF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 25px;
+  transition: all 0.5s;
+  border: 3px solid #FFF;
+}
+
+header nav a:last-child:hover {
+  background: #1875FF;
+  color: #FFF;
+}
+
+header button {
+  border: 3px solid #FFF;
+  border-radius: 15px;
+  background: #FFF;
+  color: #1875FF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 25px;
+  transition: all 0.57s;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: #1875FF;
+  color: #FFF;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero h1 {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 575px;
+  margin-right: 243px;
+}
+
+.hero p {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 27px;
+}
+
+.hero button {
+  color: #1875FF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 15px;
+  background: #FFF;
+  border: 3px solid #FFF;
+  padding: 10px 25px;
+  margin-top: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #1875FF;
+  color: #FFF;
+}
+
+.hero .img {
+  width: 467px;
+  background-image: url(../public/body.png) ;
+}
+
